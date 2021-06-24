@@ -12,7 +12,10 @@ let package = Package(
         .target(
             name: "Lottie",
             path: "lottie-ios/Classes",
-            exclude: ["Public/MacOS"]
+            exclude: ["Public/MacOS"],
+            cSettings: [
+                .headerSearchPath("PublicHeaders"),
+            ]
         )
     ]
 )
