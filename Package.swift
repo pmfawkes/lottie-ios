@@ -14,7 +14,7 @@ let package = Package(
             path: "lottie-ios/Classes",
             exclude: ["Public/MacOS"],
             cSettings: [
-                .headerSearchPath("PublicHeaders"),
+                .headerSearchPath("include"),
             ]
         )
     ]
