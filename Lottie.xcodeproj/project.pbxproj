@@ -912,13 +912,13 @@
 				481A4A371E4A7885003CF62B /* Extensions */,
 				481A4A3F1E4A7885003CF62B /* Models */,
 				481A4A571E4A7885003CF62B /* Private */,
-				62CA59C31E3C179F002D7188 /* PublicHeaders */,
+				62CA59C31E3C179F002D7188 /* include */,
 				62CA59BC1E3C173B002D7188 /* Info.plist */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
 		};
-		62CA59C31E3C179F002D7188 /* PublicHeaders */ = {
+		62CA59C31E3C179F002D7188 /* include */ = {
 			isa = PBXGroup;
 			children = (
 				62BFC2D41F14298D0068A342 /* LOTKeyframe.h */,
@@ -990,8 +990,8 @@
 				629EC5321F50DFE4005B2C59 /* LOTAnimatedControl.h */,
 				62CA59C61E3C179F002D7188 /* Lottie.h */,
 			);
-			name = PublicHeaders;
-			path = "lottie-ios/Classes/PublicHeaders";
+			name = include;
+			path = "lottie-ios/Classes/include";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
